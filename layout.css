@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial,sans-serif;
+}
+.header{
+	padding: 20px 0;
+	position: relative;
+	width: 100%;
+}
+.nav{
+	padding: 10px 0;
+	text-align: center;
+	position: absolute;
+	width: 50%;
+	top: 0;
+	left: 350px;
+	top:20;
+}
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+.nav ul li{
+	float: left;
+}
+.nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.nav ul li a:hover{
+	background-color: #555;
+
+}
+.main{
+	margin: 15px;
+}
+.upper{
+	padding: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+	
+}
+.p{
+	
+}
+.lower{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	top: 50px;
+	width: 60%;
+	margin-left: 20%;
+}
+.lower .left{
+	flex: 1;
+	padding: 10px;
+}
+.lower .center{
+	flex: 1;
+	padding: 10px;
+}
+.lower .right{
+	flex: 1;
+	padding: 10px;
+}
+.footer{
+	background: url("天空设计_images/images/2406.png");
+	text-align: center;
+	padding: 10px;
+	position: 10px 0;
+	bottom: 0;
+	width: 100%;
+}
